@@ -8,6 +8,7 @@ export function Logo() {
             lineHeight="32px"
             background="linear-gradient(270deg, #DB2777 0%, #6D28D9 100%)"
             sx={{
+                display: "inline",
                 textFillColor: "transparent",
                 backgroundClip: "text",
                 WebkitTextFillColor: "transparent",
