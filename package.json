@@ -15,6 +15,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "framer-motion": "6",
+    "gzipper": "^7.1.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
@@ -23,9 +24,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build --production && yarn gzipper c ./build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker:build": "docker build -t landing .",
+    "docker:run": "docker run --rm --name landing -p 8080:80 landing"
   },
   "eslintConfig": {
     "extends": [
