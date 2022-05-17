@@ -27,8 +27,8 @@
     "build": "react-scripts build --production && yarn gzipper c ./build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "docker:build": "docker build -t landing .",
-    "docker:run": "docker run --rm --name landing -p 8080:80 landing"
+    "docker:build": "docker build -t luchanso/landing .",
+    "docker:run": "docker run --rm --name landing -p 8080:80 luchanso/landing"
   },
   "eslintConfig": {
     "extends": [
