@@ -4,6 +4,7 @@ import "@fontsource/inter/300.css";
 
 import { FormLabel } from "./components/formLabel";
 import { Button } from "./components/button";
+import { Input } from "./components/input";
 
 const newTheme = {
     colors: {
@@ -24,7 +25,8 @@ const newTheme = {
     },
     components: {
         Button,
-        FormLabel
+        FormLabel,
+        Input
     },
     config: {
         initialColorMode: 'light',

@@ -1,10 +1,9 @@
 export const FormLabel = {
     baseStyle: {
-        // color: "red",
     },
     sizes: {
         md: {
-            mb: 100,
+            mb: 1,
         },
     },
 };
