@@ -9,20 +9,20 @@ export function Form() {
             direction="column"
         >
             <FormControl mb="6" minWidth="320px">
-                <FormLabel size="md" htmlFor="bitcoin-address">Bitcoin address</FormLabel>
+                <FormLabel htmlFor="bitcoin-address">Bitcoin address</FormLabel>
                 <Input size="md" id="bitcoin-address" placeholder="343af2b..." variant='filled' />
             </FormControl>
             <FormControl mb="6">
-                <FormLabel size="md" htmlFor="email">Email for invoce</FormLabel>
-                <Input size="md" id="email" placeholder="invoce@example.com" variant='filled' />
+                <FormLabel htmlFor="email">Email for invoce</FormLabel>
+                <Input id="email" placeholder="invoce@example.com" variant='filled' />
             </FormControl>
             <FormControl mb="6">
-                <FormLabel size="md" htmlFor="price">Price in $</FormLabel>
-                <Input size="md" id="price" placeholder="$ 123.45" variant='filled' />
+                <FormLabel htmlFor="price">Price in $</FormLabel>
+                <Input id="price" placeholder="$ 123.45" variant='filled' />
             </FormControl>
             <FormControl mb="6">
-                <FormLabel size="md" htmlFor="callback-url">Return to</FormLabel>
-                <Input size="md" id="callback-url" placeholder="https://awesome-shop.com/finish" variant='filled' />
+                <FormLabel htmlFor="callback-url">Return to</FormLabel>
+                <Input id="callback-url" placeholder="https://awesome-shop.com/finish" variant='filled' />
             </FormControl>
             <Button>Create Payment Link</Button>
         </Flex>

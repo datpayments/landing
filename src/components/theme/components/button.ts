@@ -13,4 +13,7 @@ export const Button = {
       py: 3,
     },
   },
+  defaultProps: {
+    size: 'md',
+  }
 };

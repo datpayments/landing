@@ -6,4 +6,7 @@ export const FormLabel = {
             mb: 1,
         },
     },
+    defaultProps: {
+        size: 'md',
+    }
 };

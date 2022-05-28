@@ -28,7 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "docker:build": "docker build -t luchanso/landing .",
-    "docker:run": "docker run --rm --name landing -p 8080:80 luchanso/landing"
+    "docker:run": "docker run --rm --name landing -p 8080:80 luchanso/landing",
+    "gen:theme-typings": "chakra-cli tokens ./src/components/theme/theme.ts"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +47,9 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "devDependencies": {
+      "@chakra-ui/cli": "^2.0.0"
+    }
   }
 }

@@ -28,9 +28,13 @@ const newTheme = {
         FormLabel,
         Input
     },
+    borderRadius: {
+        sizes: {
+            md: '12px'
+        }
+    },
     config: {
         initialColorMode: 'light',
-        // useSystemColorMode: false
     }
 };
 

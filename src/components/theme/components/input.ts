@@ -1,12 +1,19 @@
 export const Input = {
-  baseStyle: {
-    background: 'red',
-    height: '48px',
-  },
-  sizes: {
-    md: {
-      background: 'red',
-      height: '48px',
+    parts: ["field"],
+
+    baseStyle: {
+        field: {},
     },
-  },
+    sizes: {
+        md: {
+            field: {
+                h: "48px",
+                borderRadius: '12px'
+            },
+        },
+    },
+    variants: {},
+    defaultProps: {
+        size: "md",
+    },
 };
