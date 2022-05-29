@@ -1,16 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Landing } from './components/Landing';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { Landing } from "./components/Landing/Landing";
+import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById("root") as HTMLElement
 );
 
 root.render(
-  <React.StrictMode>
-    <Landing />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Landing />
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
