@@ -1,6 +1,7 @@
 import { extendTheme, withDefaultColorScheme } from "@chakra-ui/react";
 import "@fontsource/inter";
 import "@fontsource/inter/300.css";
+import "@fontsource/inter/800.css";
 
 import { FormLabel } from "./components/formLabel";
 import { Button } from "./components/button";
@@ -26,16 +27,16 @@ const newTheme = {
     components: {
         Button,
         FormLabel,
-        Input
+        Input,
     },
     borderRadius: {
         sizes: {
-            md: '12px'
-        }
+            md: "12px",
+        },
     },
     config: {
-        initialColorMode: 'light',
-    }
+        initialColorMode: "light",
+    },
 };
 
 export const theme = extendTheme(

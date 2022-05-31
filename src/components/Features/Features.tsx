@@ -5,7 +5,7 @@ import { Feature } from "../Feature/Feature";
 const features = [
     "Accept payments in a couple of clicks\nwithout writing a single line of code",
     "Create payment pages\nthrough REST requests or libraries",
-    "Forgot KYC, AML, Verifications,\nCompany Registration and other useless papers works...",
+    "Forgot it: \nKYC, AML, Verifications, Company Registration, and other paper work...",
     "Coverage all contries",
 ] as const;
 
@@ -24,7 +24,7 @@ export function Features() {
                         fontSize="32px"
                         fontStyle="normal"
                         lineHeight="52px"
-                        fontWeight="semibold"
+                        fontWeight="normal"
                         mb={12}
                     >
                         Simple platform
