@@ -1,6 +1,8 @@
-import { Box, Container, Text } from "@chakra-ui/react";
+import { Box, Container, Flex, Text } from "@chakra-ui/react";
 import { SimpleGrid } from "@chakra-ui/react";
+import { CodeExample } from "../CodeExample/CodeExample";
 import { Feature } from "../Feature/Feature";
+import { Iphone } from "../Iphone/Iphone";
 
 const features = [
     "Accept payments in a couple of clicks\nwithout writing a single line of code",
@@ -46,7 +48,14 @@ export function Features() {
                         />
                     </SimpleGrid>
                 </Box>
-                <Box>Example code</Box>
+                <Flex>
+                    <Box mr={4}>
+                        <CodeExample />
+                    </Box>
+                    <Box>
+                        <Iphone />
+                    </Box>
+                </Flex>
             </SimpleGrid>
         </Container>
     );

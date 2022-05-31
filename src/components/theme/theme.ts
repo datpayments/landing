@@ -2,6 +2,7 @@ import { extendTheme, withDefaultColorScheme } from "@chakra-ui/react";
 import "@fontsource/inter";
 import "@fontsource/inter/300.css";
 import "@fontsource/inter/800.css";
+import "@fontsource/inconsolata";
 
 import { FormLabel } from "./components/formLabel";
 import { Button } from "./components/button";
